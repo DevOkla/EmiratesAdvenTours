@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logoLarge.png";
 
 // import icons
 import { RiArrowRightLine } from "react-icons/ri";
@@ -9,7 +9,7 @@ import { BsWhatsapp } from "react-icons/bs";
 // import images
 import CallbackImg from "../assets/images/callback-img.png";
 
-export default function Callback() {
+export default function Contact() {
   return (
     <section className="callback pt-24 transition-all duration-400 dark:bg-gray-900">
       <div className="callback__wrapper relative flex h-[640px] flex-col items-center justify-center gap-10">

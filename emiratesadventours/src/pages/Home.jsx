@@ -7,7 +7,7 @@ import About from "../parts/HomePage/About";
 import Service from "../parts/HomePage/Service";
 import Tours from "../parts/HomePage/Tours";
 import Review from "../components/Review";
-import Callback from "../components/Callback";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 
@@ -20,7 +20,7 @@ export default function Home() {
       <Service />
       <Tours />
       <Review />
-      <Callback />
+      <Contact />
       <Footer />
       <ScrollToTop />
     </>

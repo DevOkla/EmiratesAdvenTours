@@ -18,12 +18,12 @@ export const serviceData = [
   {
     icons: ServiceIcon2,
     title: "Transport",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo iste ratione vero repellat dicta harum modi placeat.",
+    text: "Join us in our Luxury Buses tours",
   },
   {
     icons: ServiceIcon3,
     title: "Easy Book",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo iste ratione vero repellat dicta harum modi placeat.",
+    text: "Enjoy the flexible payment through our app and get rewards on every payment.",
   },
   {
     icons: ServiceIcon4,

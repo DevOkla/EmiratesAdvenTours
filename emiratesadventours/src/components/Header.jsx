@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logoLarge.png";
 // react icons
 import {
   RiMenu3Fill,
@@ -58,7 +58,7 @@ export default function Header() {
             menuOpen ? "right-0" : "-right-full"
           }`}
         >
-          <ul className="header__list mb-8 flex flex-col gap-8 md:mb-0 md:flex-row">
+          <ul className="header__list mb-8 flex flex-col gap-8   md:mb-0 md:flex-row">
             {[
               ["Why us", "about"],
               /*  ["Why Us", "/why-us"], */
@@ -72,7 +72,7 @@ export default function Header() {
                   smooth={true}
                   offset={0}
                   duration={500}
-                  className={`header__link group relative text-[15px] font-medium leading-tight text-gray-900 dark:text-white md:text-white ${
+                  className={`header__link group relative cursor-pointer stroke-black text-[15px]	 font-medium leading-tight text-gray-900 drop-shadow-[0_0.5px_0.5px_rgba(0,0,0,0.8)]	 dark:text-white md:text-white ${
                     stickyHeader ? "lg:text-gray-900" : "md:text-white"
                   }`}
                 >

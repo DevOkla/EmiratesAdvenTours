@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
-import logo from "../assets/images/logoLarge.png";
+import logo from "../assets/images/logo.svg";
 // react icons
 import {
   RiMenu3Fill,
@@ -45,7 +45,7 @@ export default function Header() {
         {/* header logo */}
         <Link
           to="/"
-          className={`header__logo h-20 w-20 font-serif text-[20px] font-semibold dark:text-white ${
+          className={`header__logo  w-20 font-serif text-[20px] font-semibold dark:text-white ${
             stickyHeader ? "text-gray-900" : "text-white"
           }`}
         >

@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // import images
-import HeroImg from "../../assets/images/hero-img.png";
+import HeroImg from "../../assets/images/hero-img.jpg";
 
 export default function Hero() {
   return (
     <section className="hero pb-16 transition-all duration-400 dark:bg-gray-900">
-      <div className="hero__wrapper relative flex h-[90vh] items-center bg-pink-200">
+      <div className="hero__wrapper relative flex h-[90vh] items-center bg-blue-100 brightness-110">
         {/* hero img */}
         <img
           src={HeroImg}

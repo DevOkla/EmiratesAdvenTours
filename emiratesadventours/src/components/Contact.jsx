@@ -1,25 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logoLarge.png";
+import logo from "../assets/images/logo.svg";
 
 // import icons
 import { RiArrowRightLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 
 // import images
-import CallbackImg from "../assets/images/callback-img.png";
+import contact from "../assets/images/contact.jpg";
 
 export default function Contact() {
   return (
     <section className="callback pt-24 transition-all duration-400 dark:bg-gray-900">
       <div className="callback__wrapper relative flex h-[640px] flex-col items-center justify-center gap-10">
         <img
-          src={CallbackImg}
+          src={contact}
           alt="callback img"
-          className="callback__img absolute left-0 top-0 h-full w-full object-cover object-center"
+          className="callback__img absolute left-0 top-0 h-full w-full object-cover object-center brightness-110"
         />
         {/* overlay */}
-        <div className="absolute left-0 top-0 h-full w-full bg-gray-900/30" />
+        <div className="absolute left-0 top-0 h-full w-full bg-blue-300/10" />
         <div className="callback__container container">
           <div className="callback__data relative text-center xs:mx-auto xs:max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
             <p className="callback__subtitle section-subtitle text-white">

@@ -12,6 +12,7 @@ export default function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/*" element={<NotFound />} />
           <Route path="/pages/packages" element={<Packages />}></Route>
         </Routes>
       </Router>

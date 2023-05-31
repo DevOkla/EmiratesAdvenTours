@@ -21,8 +21,8 @@ export default function Hero() {
         <div className="hero__container container relative">
           {/* hero data */}
           <div className="hero__data flex items-center justify-center xs:mx-auto xs:max-w-sm sm:max-w-md md:max-w-lg xl:max-w-4xl 2xl:max-w-5xl">
-            <h1 className="hero__title section-title items-center justify-center text-Gold xs:text-[42px] sm:text-[48px] 2xl:text-[64px]">
-              Travel To Explore <br />
+            <h1 class="bg-gradient-to-r from-white via-blue-300 to-blue-100 bg-clip-text text-8xl font-extrabold text-transparent">
+              Explore the UAE
             </h1>
           </div>
         </div>

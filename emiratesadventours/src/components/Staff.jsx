@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-// import images
-import ReviewImg from "../assets/images/review-img.png";
-
+import Misho from "../assets/images/misho.jpeg";
+import Eddie from "../assets/images/eddie.jpeg";
+import Faisal from "../assets/images/faisal.jpeg";
 export default function Staff() {
   return (
     <section className="staff section flex flex-col items-center justify-center transition-all duration-400 dark:bg-gray-900">
@@ -12,13 +10,13 @@ export default function Staff() {
         Words From Our Founders
       </h1>
 
-      <div className="cards flex  items-center justify-center gap-10">
+      <div className="cards mx-5 flex flex-wrap items-center justify-center gap-10 dark:text-white">
         <div class="staff-card w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
           <div class="flex justify-center px-4 pt-4"></div>
           <div class="flex flex-col items-center pb-10">
             <img
-              class="mb-3 h-24 w-24 rounded-full shadow-lg"
-              src="/docs/images/people/profile-picture-3.jpg"
+              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg "
+              src={Faisal}
               alt="faisal image"
             />
             <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
@@ -46,8 +44,8 @@ export default function Staff() {
           <div class="flex justify-center px-4 pt-4"></div>
           <div class="flex flex-col items-center pb-10">
             <img
-              class="mb-3 h-24 w-24 rounded-full shadow-lg"
-              src="/docs/images/people/profile-picture-3.jpg"
+              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg "
+              src={Eddie}
               alt="Bonnie image"
             />
             <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
@@ -73,8 +71,8 @@ export default function Staff() {
           <div class="flex justify-center px-4 pt-4"></div>
           <div class="flex flex-col items-center pb-10">
             <img
-              class="mb-3 h-24 w-24 rounded-full shadow-lg"
-              src="/docs/images/people/profile-picture-3.jpg"
+              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg"
+              src={Misho}
               alt="Bonnie image"
             />
             <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">

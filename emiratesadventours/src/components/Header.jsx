@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/logo.png";
 // react icons
 import {
   RiMenu3Fill,
@@ -63,7 +63,7 @@ export default function Header() {
               ["Why us", "about"],
               /*  ["Why Us", "/why-us"], */
               ["Tours", "tours"],
-              ["Reviews", "reviews"],
+              ["Reviews", "review"],
               ["Contact", "contact"],
             ].map(([title, url]) => (
               <li key={url}>
@@ -99,7 +99,7 @@ export default function Header() {
             {colorMode === "light" ? <RiMoonFill /> : <RiSunFill />}
           </div>
 
-          <Link to="/register" className="header__button button">
+          <Link to="/pages/packages" className="header__button button">
             Book Now
           </Link>
         </div>

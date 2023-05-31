@@ -6,11 +6,11 @@ import Hero from "../parts/HomePage/Hero";
 import About from "../parts/HomePage/About";
 import Service from "../parts/HomePage/Service";
 import Tours from "../parts/HomePage/Tours";
-import Review from "../components/Review";
+import Review from "../parts/HomePage/Review";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
-import Staff from "../components/Staff";
+import Staff from "../components/staff";
 
 export default function Home() {
   return (

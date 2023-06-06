@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { RiArrowUpLine } from "react-icons/ri";
-
+import { useLocation } from "react-router-dom";
 export default function ScrollToTop() {
   // visible scroll state
   const [visible, setVisible] = useState(false);

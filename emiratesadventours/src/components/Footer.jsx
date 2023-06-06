@@ -1,13 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/images/logo.png";
 // import icons
-import {
-  RiInstagramFill,
-  RiYoutubeFill,
-  RiTwitterFill,
-  RiFacebookFill,
-} from "react-icons/ri";
+import { RiInstagramFill, RiYoutubeFill, RiFacebookFill } from "react-icons/ri";
 
 export default function Footer() {
   return (
@@ -17,22 +12,19 @@ export default function Footer() {
           <div className="footer__content">
             <Link
               to="/"
-              className="footer__content-logo font-serif text-[20px] font-semibold text-white"
+              className="footer__content-logo flex flex-col font-serif text-[20px] font-semibold text-white"
             >
               Emirates AdvenTours
+              <img className="w-40" src={logo} alt="logo" />
             </Link>
           </div>
-
           <div className="footer__content">
             <h3 className="footer__content-title pb-4 font-serif text-[18px] font-semibold text-white">
               Learn More
             </h3>
-
             <ul className="footer__content-list flex flex-col gap-2">
               {[
                 ["About", "/about"],
-                ["Press release", "/press-release"],
-                ["Environment", "/environment"],
                 ["Privacy policy", "/privacy-policy"],
               ].map(([title, url]) => (
                 <li key={url}>
@@ -46,16 +38,12 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-
           <div className="footer__content">
             <h3 className="footer__content-title pb-4 font-serif text-[18px] font-semibold text-white">
               Ticket & Booking
             </h3>
-
             <ul className="footer__content-list flex flex-col gap-2">
               {[
-                ["Lift tickets", "/lift-tickets"],
-                ["Season passes", "/season-passes"],
                 ["Vacations package", "/vacations-package"],
                 ["Best trips", "/best-trips"],
               ].map(([title, url]) => (
@@ -70,12 +58,10 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-
           <div className="footer__content">
             <h3 className="footer__content-title pb-4 font-serif text-[18px] font-semibold text-white">
               Socials
             </h3>
-
             <ul className="footer__content-socials flex w-max items-center gap-4">
               <li>
                 <Link
@@ -93,14 +79,7 @@ export default function Footer() {
                   <RiYoutubeFill />
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/"
-                  className="footer__content-icon inline-flex text-[1.3rem] text-white hover:text-blue-600"
-                >
-                  <RiTwitterFill />
-                </Link>
-              </li>
+
               <li>
                 <Link
                   to="/"
@@ -112,10 +91,9 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
         <p className="footer__copy border-t-2 border-white/10 pt-8 text-center text-[15px] text-white">
-          Copyrights 2023, Emirates AdvenTours. all rights reserved | Develop by
-          DevOkla
+          Copyrights 2023, Emirates AdvenTours. all rights reserved | Developed
+          by DevOkla
         </p>
       </div>
     </footer>

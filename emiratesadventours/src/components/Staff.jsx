@@ -15,7 +15,7 @@ export default function Staff() {
           <div class="flex justify-center px-4 pt-4"></div>
           <div class="flex flex-col items-center pb-10">
             <img
-              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg "
+              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg brightness-110 "
               src={Faisal}
               alt="faisal image"
             />
@@ -23,7 +23,7 @@ export default function Staff() {
               Faisal Okla
             </h5>
             <span class="text-sm text-gray-500 dark:text-gray-400">
-              Founder & CEO
+              Founder & Sales Manager
             </span>
 
             <p className="   px-6 py-5 leading-8">
@@ -44,11 +44,11 @@ export default function Staff() {
           <div class="flex justify-center px-4 pt-4"></div>
           <div class="flex flex-col items-center pb-10">
             <img
-              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg "
+              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg brightness-110 "
               src={Eddie}
               alt="Bonnie image"
             />
-            <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+            <h5 class="mb-1 text-xl font-medium text-gray-900  dark:text-white">
               Eddie Doyle
             </h5>
             <span class="text-sm text-gray-500 dark:text-gray-400">
@@ -71,7 +71,7 @@ export default function Staff() {
           <div class="flex justify-center px-4 pt-4"></div>
           <div class="flex flex-col items-center pb-10">
             <img
-              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg"
+              class="mb-3 h-24 w-24 rounded-full object-cover shadow-lg brightness-110"
               src={Misho}
               alt="Bonnie image"
             />
@@ -79,7 +79,7 @@ export default function Staff() {
               Maamoun Okla
             </h5>
             <span class="text-sm text-gray-500 dark:text-gray-400">
-              Founder & CEO
+              Founder & Web Developer
             </span>
 
             <p className=" px-6 py-5 leading-8">

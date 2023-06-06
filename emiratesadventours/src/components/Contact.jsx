@@ -36,9 +36,9 @@ export default function Contact() {
         <div class="mx-auto max-w-xs -translate-y-20 transform rounded-md bg-white px-10 py-8 text-center shadow-lg dark:bg-gray-800 dark:text-white sm:-translate-y-24">
           <h2 class="mb-6 text-2xl font-semibold">Start chatting</h2>
           <img
-            class="mx-auto mt-4 h-20 w-20   object-contain "
+            className=" w-25 mx-auto mt-4 h-20 rounded-xl  object-cover    shadow-lg "
             src={logo}
-            alt="User avatar"
+            alt="Logo"
           />
 
           <button class="my-10  flex flex-col items-center justify-center rounded-md bg-gradient-to-r from-blue-400 to-indigo-500 px-8 pb-4 pt-3 text-xl text-white">

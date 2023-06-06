@@ -10,8 +10,7 @@ import Review from "../parts/HomePage/Review";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
-import Staff from "../components/staff";
-
+import Staff from "../components/Staff";
 export default function Home() {
   return (
     <>

@@ -14,7 +14,7 @@ export default function Hero() {
           alt="hero img"
           className="hero__img absolute left-0 top-0 h-full w-full object-cover object-[60%]"
         />
-
+ 
         {/* hero overlay */}
         <div className="absolute left-0 top-0 h-full w-full bg-gray-900/30" />
 

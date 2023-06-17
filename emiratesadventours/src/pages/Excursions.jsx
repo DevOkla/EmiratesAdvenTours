@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import ScrollToTop from "../components/ScrollToTop";
 import { Link } from "react-router-dom";
@@ -89,15 +91,15 @@ export default function Chill() {
   return (
     <>
       <PackagesHeader className="" id="packagesHeader" />
-      <section className="chill_container mx-auto px-4 pt-40 transition-all duration-400 dark:bg-gray-900 md:px-10 ">
+      <section className="chill_container mx-auto pt-40 transition-all duration-400 dark:bg-gray-900 md:px-10 ">
         <h1 className="mb-4 text-4xl font-bold dark:text-gray-200">
           Chill & Cheerful 10-Day Dubai Itinerary
         </h1>
-        <div className="grid grid-cols-1 gap-4  md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {days.map((day) => (
             <div
               key={day.day}
-              className="block max-w-sm rounded-lg border border-gray-200  bg-white p-6 shadow transition-all duration-300 hover:bg-gray-100 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-200 dark:hover:border-blue-700 dark:hover:bg-gray-700"
+              className="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-200 dark:hover:border-blue-700 dark:hover:bg-gray-700"
             >
               <h2 className="mb-2 text-2xl font-bold">Day {day.day}</h2>
               <ul>

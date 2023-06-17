@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+//Scrolltop on new page load to restor scroll to top.
 import ScrollTop from "./components/ScrollTop";
 // import pages
 
